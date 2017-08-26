@@ -1,0 +1,45 @@
+body {
+  background-color: #FFE5B4;
+}
+
+#content {
+  text-align: center;
+  display: table;
+  position: absolute;
+  height: 95%;
+  width: 95%;
+}
+
+#wrapper {
+ display: table-cell;
+ vertical-align: middle;
+}
+
+#logo-text {
+  color: black;
+  font-size: 86px;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+#logo-leaf img {
+  max-height: 180px;
+  position: absolute;
+  margin: -150px 0px 0px 80px;
+  z-index: -1;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 20px;
+    padding-right: 50px;
+}
+
+input[type="submit"] {
+    margin-left: -50px;
+    height: 25px;
+    width: 50px;
+    background: black;
+    color: grey;
+    border: 0;
+    -webkit-appearance: none;
+}
